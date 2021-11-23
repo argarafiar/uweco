@@ -58,6 +58,7 @@ section{
     color: #542201;
     background: var(--main-color);
     cursor: pointer;
+    border-radius: 5px;
 }
 .btn:hover{
     letter-spacing: .2rem;
@@ -201,6 +202,7 @@ section{
     align-items: center;
     background: #542201;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 .about .baris .gambar{
     flex: 1 1 45rem;
@@ -231,6 +233,7 @@ section{
     padding: 5rem;
     text-align: center;
     border: var(--border);
+    border-radius: 10px;
 }
 .menu .container-box .box img{
     height: 10rem;
@@ -265,6 +268,7 @@ section{
     text-align: center;
     border: var(--border);
     padding: 2rem;
+    border-radius: 10px;
 }
 .products .container-box .box .icons a{
     height: 5rem;
@@ -274,6 +278,7 @@ section{
     border: var(--border);
     color: #fff;
     margin: .3rem;
+    border-radius: 50%;
 }
 .products .container-box .box .icons a:hover{
     background: var(--main-color);
@@ -314,6 +319,7 @@ section{
     border: var(--border);
     text-align: center;
     padding: 3rem 2rem;
+    border-radius: 10px;
 }
 .review .container-box .box p{
     font-size: 1.5rem;
@@ -342,6 +348,7 @@ section{
     background: var(--two-color);
     flex-wrap: wrap;
     gap: 1rem;
+    border-radius: 10px;
 }
 .contact .row .map{
     flex: 1 1 45rem;
@@ -365,6 +372,7 @@ section{
     margin-bottom: 2rem;
     background: var(--two-color);
     border: var(--border);
+    border-radius: 10px;
 }
 .contact .row form .inputbox span{
     color: #fff;
@@ -379,6 +387,46 @@ section{
     text-transform: none;
     background: none;
 }
+.footer{
+    background: var(--two-color);
+    margin-top: 5rem;
+}
+.footer .container-box{
+    width: 30rem;
+}
+.footer .container-box h2{
+    font-size: 3.5rem;
+    color: var(--main-color);
+}
+.footer .container-box p{
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+.footer .container-box hr{
+    border: var(--border);
+}
+.footer .container-box .share{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: .5rem;
+}
+.footer .container-box .share a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    color: #fff;
+
+    margin: .3rem;
+    border-radius: 50%;
+}
+.footer .container-box .share a:hover{
+    background: var(--main-color);
+    color: var(--two-color);
+}
+
 
 
 
