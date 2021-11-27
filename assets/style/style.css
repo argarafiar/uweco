@@ -224,6 +224,17 @@ section{
     padding: 1rem 0;
     line-height: 1.8;
 }
+.judul{
+    text-align: center;
+    color: #542201;
+    text-transform: uppercase;
+    padding-bottom: -2rem;
+    font-size: 4rem;
+}
+.judul-menu span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
 .menu .container-box{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -320,6 +331,17 @@ section{
     text-align: center;
     padding: 3rem 2rem;
     border-radius: 10px;
+}
+.review .container-box .box .quote{
+    animation: bouceTop_01 3s linear infinite;
+}
+@keyframes bouceTop_01 {
+    0%,100%{
+        transform:translateY(-15px);
+    }
+    50%{
+        transform:translateY(0px);
+    }
 }
 .review .container-box .box p{
     font-size: 1.5rem;
@@ -418,7 +440,6 @@ section{
     width: 4rem;
     line-height: 4rem;
     color: #fff;
-
     margin: .3rem;
     border-radius: 50%;
 }
@@ -426,37 +447,6 @@ section{
     background: var(--main-color);
     color: var(--two-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* media queri */
