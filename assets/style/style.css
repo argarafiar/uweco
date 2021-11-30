@@ -367,7 +367,8 @@ section{
 
 .contact .row{
     display: flex;
-    background: var(--two-color);
+    background: none;
+    border: var(--border);
     flex-wrap: wrap;
     gap: 1rem;
     border-radius: 10px;
@@ -385,19 +386,23 @@ section{
 .contact .row form h3{
     text-transform: uppercase;
     font-size: 3.5rem;
-    color: #fff;
+    color: var(--main-color);
+}
+.contact .row form h3 span{
+    text-transform: uppercase;
+    color: var(--two-color);
 }
 .contact .row form .inputbox{
     display: flex;
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background: var(--two-color);
+    background: none;
     border: var(--border);
     border-radius: 10px;
 }
 .contact .row form .inputbox span{
-    color: #fff;
+    color: var(--main-color);
     font-size: 2rem;
     padding-left: 2rem;
 }
